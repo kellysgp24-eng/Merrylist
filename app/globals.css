@@ -362,3 +362,28 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
   }
   .kidmast h1,.kidmast .kidwelcome{left:0!important}
 }
+
+/* Hard fix: desktop kids nav must never overlap content */
+@media(min-width:1051px){
+  .kidworld>.tabs{
+    position:fixed!important;
+    left:20px!important;
+    right:auto!important;
+    top:310px!important;
+    width:205px!important;
+    margin:0!important;
+    transform:none!important;
+  }
+  .kidmast,
+  .kidworld>section,
+  .kidworld>aside{
+    width:min(720px,calc(100vw - 540px))!important;
+    margin-left:calc(50% - 230px)!important;
+    margin-right:0!important;
+    transform:none!important;
+  }
+}
+@media(min-width:1350px){
+  .kidworld>.tabs{left:calc(50% - 610px)!important}
+  .kidmast,.kidworld>section,.kidworld>aside{margin-left:calc(50% - 300px)!important}
+}
