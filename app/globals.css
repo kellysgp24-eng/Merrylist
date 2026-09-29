@@ -93,3 +93,14 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .kidworld section,.kidmast{backdrop-filter:none!important}
 .kidworld:after{pointer-events:none}
 @media(max-width:700px){.winterworld,.summerworld{background-attachment:scroll!important}.homeworld{display:block!important}.winterhalf,.summerhalf{position:absolute!important;inset:0!important}.summerhalf{display:block!important;clip-path:polygon(50% 0,100% 0,100% 100%,50% 100%)}.winterhalf{clip-path:polygon(0 0,50% 0,50% 100%,0 100%)}}
+
+/* Full mockup composition: real UI covers any interface baked into scenery */
+.storyhome{padding:92px max(24px,calc((100vw - 1080px)/2)) 55px!important;min-height:100vh!important;background-image:linear-gradient(rgba(12,8,3,.03),rgba(12,8,3,.06))!important}
+.storyhome .homeworld{filter:none!important;opacity:1!important}
+.storyhome:after{content:"";position:fixed;z-index:-1;left:50%;top:0;transform:translateX(-50%);width:min(1180px,96vw);height:92px;background:linear-gradient(180deg,#fff8e9,#f5e2bd);border:2px solid #c8994f;border-top:0;border-radius:0 0 12px 12px;box-shadow:0 6px 18px rgba(37,17,4,.25)}
+.storywelcome{position:relative;z-index:3;max-width:940px!important;margin:38px auto 0!important;padding:82px 48px 28px!important;border-radius:8px 8px 0 0!important;border-bottom:0!important}
+.storylogo{position:absolute;left:50%;top:-74px;transform:translateX(-50%);margin:0!important;min-width:360px;box-sizing:border-box}
+.storyentry{position:relative;z-index:3;max-width:940px!important;margin:0 auto!important;padding:0 26px 28px;background:linear-gradient(rgba(255,249,229,.99),rgba(247,230,193,.99));border:3px solid #c69a52;border-top:0;border-radius:0 0 8px 8px;box-shadow:0 14px 32px rgba(34,15,4,.42)}
+.storyentry .entrycard{box-shadow:none!important;background:rgba(255,250,236,.98)!important;min-height:330px}
+.storyentry:before{content:"";position:absolute;inset:8px;border:1px solid rgba(177,126,57,.3);pointer-events:none;border-radius:5px}
+@media(max-width:700px){.storyhome{padding:78px 12px 30px!important}.storyhome:after{height:72px}.storywelcome{margin-top:48px!important;padding:70px 18px 20px!important}.storylogo{min-width:240px;font-size:34px!important;top:-58px}.storyentry{padding:0 12px 18px}.storyentry .entrycard{min-height:auto}}
