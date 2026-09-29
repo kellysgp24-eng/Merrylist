@@ -142,3 +142,10 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .storyhome .storyentry:before{display:none!important}.storyhome .entrycard{box-sizing:border-box!important;min-height:315px!important;margin:0!important;padding:26px 28px!important;background:#fff8e8!important;border:1px solid #d0a765!important;border-radius:8px!important;box-shadow:none!important;color:#3f2c1d!important}.storyhome .entrycard p,.storyhome .entrycard span,.storyhome .entrycard small{color:#59442f!important;opacity:1!important}.storyhome .entrycard h2{color:#9d1c1c!important}.storyhome .entrycard .eyebrow{color:#9a6d22!important}.storyhome .entrycard .go{background:#aa2929!important;color:#fff!important}
 .storyhome .welcomenote{position:relative!important;z-index:2!important;width:max-content;max-width:calc(100vw - 40px);margin:14px auto 0!important;background:rgba(255,244,216,.96)!important}
 @media(max-width:720px){.storyhome{padding:28px 10px!important}.storyhome .storywelcome{width:100%!important;margin-top:62px!important;padding:62px 16px 18px!important}.storyhome .storylogo{min-width:230px!important;font-size:34px!important;top:-52px!important}.storyhome .storyentry{width:100%!important;grid-template-columns:1fr!important;padding:0 10px 12px!important}.storyhome .entrycard{min-height:auto!important;padding:22px 18px!important}}
+
+/* Approved landing artwork */
+.storyhome{background:#08182d url('/merrylist-landing-bg.webp') center center/cover fixed no-repeat!important}
+.storyhome .homeworld{display:none!important}
+.storyhome:before,.storyhome:after{display:none!important}
+.storyhome .storywelcome,.storyhome .storyentry{background:rgba(255,242,213,.96)!important;backdrop-filter:blur(1.5px)}
+@media(max-width:720px){.storyhome{background-position:center center!important;background-attachment:scroll!important}}
