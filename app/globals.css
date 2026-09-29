@@ -195,3 +195,7 @@ main.storyhome>.storywelcome,main.storyhome>.storyentry{position:relative!import
 body:has(main.storyhome){background-image:url('/merrylist-landing-bg.webp')!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
 main.storyhome::before{display:none!important;content:none!important}
 main.storyhome{background:transparent!important}
+
+/* Inline landing background owns the home scene */
+body:has(main.storyhome){background:transparent!important}
+main.storyhome{background-color:transparent!important}
