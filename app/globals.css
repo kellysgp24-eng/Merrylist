@@ -206,3 +206,32 @@ main.storyhome{position:relative!important;isolation:isolate!important;backgroun
 main.storyhome::before,main.storyhome::after{display:none!important;content:none!important}
 main.storyhome>.landingart{display:block!important;position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;max-width:none!important;object-fit:cover!important;object-position:center center!important;z-index:0!important;pointer-events:none!important}
 main.storyhome>.storywelcome,main.storyhome>.storyentry{position:relative!important;z-index:1!important}
+
+/* === MerryList landing v2: isolated from all legacy landing CSS === */
+.mlLanding{position:relative!important;width:100%!important;max-width:none!important;min-height:100vh!important;margin:0!important;padding:72px 24px!important;display:flex!important;align-items:flex-start!important;justify-content:center!important;overflow:hidden!important;background:#07182c!important;isolation:isolate!important;box-sizing:border-box!important}
+.mlLandingBg{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;display:block!important;object-fit:cover!important;object-position:center center!important;opacity:1!important;visibility:visible!important;z-index:0!important;filter:none!important}
+.mlLandingShade{position:fixed!important;inset:0!important;display:block!important;z-index:1!important;pointer-events:none!important;background:linear-gradient(180deg,rgba(4,14,28,.08),rgba(4,14,28,.18))!important}
+.mlLandingPanel{position:relative!important;z-index:2!important;width:min(900px,72vw)!important;margin:64px auto 40px!important;padding:64px 20px 20px!important;border:2px solid #c99b4e!important;border-radius:16px!important;background:rgba(255,244,216,.94)!important;box-shadow:0 20px 55px rgba(0,0,0,.35)!important;box-sizing:border-box!important}
+.mlWoodSign{position:absolute!important;left:50%!important;top:-58px!important;transform:translateX(-50%)!important;min-width:330px!important;padding:16px 34px!important;border:4px solid #3c1609!important;border-radius:10px!important;background:linear-gradient(#6d2e12,#481907)!important;box-shadow:0 8px 0 #2b1007,0 12px 24px rgba(0,0,0,.3)!important;color:#f7d57a!important;text-align:center!important;font:700 42px Georgia,serif!important;letter-spacing:.5px!important}
+.mlLandingHead{text-align:center!important;padding:4px 20px 24px!important;background:transparent!important}
+.mlLandingHead h1{margin:0 0 8px!important;color:#ad2024!important;font:700 clamp(36px,4vw,58px) Georgia,serif!important;line-height:1.05!important}
+.mlLandingHead h2{margin:0 0 8px!important;color:#402719!important;font:700 22px Georgia,serif!important}
+.mlLandingHead p{margin:0!important;color:#476052!important;font:700 16px system-ui,sans-serif!important;letter-spacing:3px!important}
+.mlEntryGrid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important}
+.mlEntryCard{min-width:0!important;padding:28px!important;border:1.5px solid #d4a65c!important;border-radius:12px!important;background:rgba(255,251,240,.96)!important;color:#402719!important;box-sizing:border-box!important}
+.mlEntryIcon{font-size:26px!important;margin-bottom:12px!important}
+.mlEyebrow{margin:0 0 8px!important;color:#9a6a21!important;font:800 12px system-ui,sans-serif!important;letter-spacing:1.5px!important}
+.mlEntryCard h2{margin:0 0 14px!important;color:#a91f24!important;font:700 30px Georgia,serif!important}
+.mlEntryCard>p:not(.mlEyebrow){margin:0 0 22px!important;font:18px/1.45 Georgia,serif!important}
+.mlFamilyGate label{display:block!important;margin-bottom:8px!important;font:700 17px Georgia,serif!important}
+.mlFamilyCode{display:grid!important;grid-template-columns:1fr auto!important;gap:10px!important}
+.mlFamilyCode input{width:100%!important;min-width:0!important;padding:14px 15px!important;border:1px solid #cdb88d!important;border-radius:12px!important;background:#fff!important;color:#34251d!important;font-size:16px!important;box-sizing:border-box!important}
+.mlFamilyCode button,.mlPrimary{padding:14px 22px!important;border:0!important;border-radius:999px!important;background:#b72a2e!important;box-shadow:0 4px 0 #7f1d20!important;color:#fff!important;font:700 15px Georgia,serif!important;cursor:pointer!important}
+.mlFamilyGate small{display:block!important;margin-top:10px!important;color:#5a4536!important;font:14px/1.25 Georgia,serif!important}
+.mlPrimary{width:100%!important;margin:6px 0 26px!important}
+.mlNewFamily{padding-top:18px!important;border-top:1px solid #e2c99c!important;display:grid!important;gap:8px!important}
+.mlNewFamily b{color:#a91f24!important;font:700 19px Georgia,serif!important}
+.mlNewFamily span{font:15px/1.35 Georgia,serif!important}
+.mlNewFamily button{justify-self:start!important;padding:8px 14px!important;border:1px solid #c99b4e!important;border-radius:999px!important;background:#fff8e6!important;color:#8f1f23!important;font-weight:700!important}
+@media(max-width:900px){.mlLanding{padding:54px 12px!important}.mlLandingPanel{width:min(94vw,760px)!important}.mlEntryGrid{grid-template-columns:1fr!important}.mlWoodSign{min-width:260px!important;font-size:34px!important}}
+@media(max-width:560px){.mlLanding{padding:34px 8px!important}.mlLandingPanel{width:96vw!important;margin-top:58px!important;padding:54px 10px 10px!important}.mlWoodSign{top:-48px!important;min-width:220px!important;padding:12px 24px!important;font-size:30px!important}.mlLandingHead{padding:0 8px 18px!important}.mlLandingHead h1{font-size:34px!important}.mlLandingHead h2{font-size:18px!important}.mlLandingHead p{font-size:12px!important;letter-spacing:1.5px!important}.mlEntryCard{padding:20px!important}.mlFamilyCode{grid-template-columns:1fr!important}.mlFamilyCode button{width:100%!important}}
