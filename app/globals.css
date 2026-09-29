@@ -111,3 +111,19 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .storywelcome{margin-top:58px!important}
 .storyhome .homeworld:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,24,48,.18) 0 49.8%,rgba(106,48,17,.10) 50.2% 100%);pointer-events:none}
 @media(max-width:700px){.storyhome{padding-top:34px!important}.storywelcome{margin-top:64px!important}}
+
+/* Live repair: clean Christmas scenery + one real interface */
+.storyhome{padding:34px max(18px,calc((100vw - 1120px)/2)) 54px!important}
+.storyhome .homeworld{filter:none!important}
+.storyhome .winterhalf,.storyhome .summerhalf{background-image:none!important}
+.storyhome .winterhalf{background:radial-gradient(circle at 72% 15%,#fff2bf 0 2%,transparent 2.5%),radial-gradient(circle at 18% 22%,#fff 0 1.5px,transparent 2px),linear-gradient(180deg,#06172f 0,#12335b 54%,#e7eef2 55%,#f8f6ee 100%)!important;background-size:90px 90px,130px 130px,auto!important}
+.storyhome .summerhalf{background:radial-gradient(circle at 72% 18%,#ffe38b 0 4%,rgba(255,221,120,.18) 5%,transparent 20%),linear-gradient(180deg,#72c8df 0,#f3ad70 48%,#df6c52 57%,#2e849e 58%,#67aebc 69%,#e9c987 70%)!important}
+.storyhome .winterhalf:before{content:"";position:absolute;inset:0;background:linear-gradient(150deg,transparent 0 64%,rgba(18,55,44,.8) 64.2% 66%,transparent 66.2%),linear-gradient(30deg,transparent 0 70%,rgba(18,55,44,.65) 70.2% 72%,transparent 72.2%);opacity:.65}
+.storyhome .summerhalf:before{content:"";display:block!important;position:absolute;inset:0;background:radial-gradient(ellipse at 88% 28%,rgba(157,30,35,.9) 0 1.1%,transparent 1.3%),radial-gradient(ellipse at 91% 31%,rgba(157,30,35,.75) 0 1.4%,transparent 1.6%);background-size:120px 120px,155px 155px;opacity:.7}
+.storywelcome{margin:68px auto 0!important;max-width:940px!important;padding:74px 40px 24px!important}
+.storylogo{top:-64px!important;min-width:360px!important;padding:18px 38px!important;font-size:50px!important;border-color:#2d1205!important}
+.storyentry{max-width:940px!important;padding:0 24px 24px!important}
+.storyentry .entrycard{border:1px solid #d0ad70!important;min-height:315px!important;padding:28px 30px!important}
+.storyentry .entrycard p{color:#493725!important;opacity:1!important}.storyentry .adultentry p,.storyentry .newfamily span{color:#493725!important;opacity:1!important}.storyentry .newfamily b{color:#9d1c1c!important}
+.storyentry .entryicon{font-size:27px}.welcomenote{position:relative;z-index:3;background:rgba(255,248,229,.94);max-width:700px;margin:14px auto 0;padding:9px 16px;border:1px solid #c69a52;border-radius:999px;color:#5d3a1d}
+@media(max-width:700px){.storyhome{padding:28px 10px 35px!important}.storywelcome{margin-top:58px!important;padding:64px 16px 18px!important}.storylogo{min-width:235px!important;font-size:34px!important;top:-52px!important}.storyentry{padding:0 10px 14px!important}.storyentry .entrycard{min-height:auto!important;padding:22px 18px!important}}
