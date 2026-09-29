@@ -311,3 +311,17 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .parenthq .worldchoices button{border:2px solid #c49a50!important;background:#fffaf0!important}.parenthq .worldchoices button.on{border-color:#a91f24!important;background:#f8e7c3!important;box-shadow:inset 0 0 0 2px rgba(169,31,36,.12)!important}
 .parenthq .go{background:#b3292d!important;color:#fff!important}
 @media(max-width:620px){.mlGate{padding:24px 8px 48px!important}.mlGate>header,.mlGate>section{width:95vw!important}.mlGate .profiles{grid-template-columns:1fr!important}.mlGate>header h1{font-size:31px!important}.parenthq{padding:16px 10px 50px!important}}
+
+/* Screenshot fixes 30 Sep: alignment + sign stacking */
+.mlLanding{align-items:flex-start!important}
+.mlLandingPanel{left:0!important;right:0!important;transform:none!important;margin-left:auto!important;margin-right:auto!important}
+.mlGate{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;padding-top:34px!important}
+.mlGate>.back{flex:0 0 auto!important;margin:0 auto 72px!important}
+.mlGate>header{flex:0 0 auto!important;margin:0 auto 12px!important;overflow:visible!important}
+.mlGate>section{flex:0 0 auto!important}
+.mlGate>header:before{z-index:10!important;top:-54px!important}
+.kidmast{overflow:visible!important;z-index:4!important}
+.kidmast .kidbrand{z-index:10!important;top:-54px!important}
+.kidworld>.tabs{z-index:5!important}
+.kidworld>section,.kidworld>aside{z-index:3!important}
+@media(max-width:680px){.mlGate>.back{margin-bottom:64px!important}.kidmast .kidbrand{top:-48px!important}}
