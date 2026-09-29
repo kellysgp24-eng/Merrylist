@@ -199,3 +199,10 @@ main.storyhome{background:transparent!important}
 /* Inline landing background owns the home scene */
 body:has(main.storyhome){background:transparent!important}
 main.storyhome{background-color:transparent!important}
+
+/* Known-good landing image method */
+body:has(main.storyhome){background:#08182d!important;background-image:none!important}
+main.storyhome{position:relative!important;isolation:isolate!important;background:transparent!important;background-image:none!important}
+main.storyhome::before,main.storyhome::after{display:none!important;content:none!important}
+main.storyhome>.landingart{display:block!important;position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;max-width:none!important;object-fit:cover!important;object-position:center center!important;z-index:0!important;pointer-events:none!important}
+main.storyhome>.storywelcome,main.storyhome>.storyentry{position:relative!important;z-index:1!important}
