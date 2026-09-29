@@ -332,3 +332,9 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidmast .kidbrand{left:0!important;right:auto!important;transform:none!important;top:-54px!important;margin-left:26px!important}
 @media(max-width:1050px){.mlLandingPanel{width:min(900px,84vw)!important}}
 @media(max-width:680px){.mlLanding{padding-left:8px!important;padding-right:8px!important}.mlLandingPanel{width:96vw!important}.kidmast .kidbrand{left:50%!important;transform:translateX(-50%)!important;margin-left:0!important}}
+
+.mlLoginLoading{margin-top:18px;padding:18px;border:1px solid #d2aa61;border-radius:12px;background:#fff7df;text-align:center;color:#4b3526;display:grid;justify-items:center;gap:5px}
+.mlLoginLoading .mlSpinner{display:block;font-size:30px;color:#b4272b;animation:merryspin 1.1s linear infinite}
+.mlLoginLoading b{font:700 18px Georgia,serif;color:#a91f24}.mlLoginLoading small{color:#5c6457}
+.mlGate form .go:disabled{opacity:.75;cursor:wait}
+@keyframes merryspin{to{transform:rotate(360deg)}}
