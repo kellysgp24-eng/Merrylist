@@ -176,3 +176,10 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
  .storyhome>.storywelcome{width:calc(100% - 12px)!important;margin-top:72px!important;padding:42px 16px 18px!important}
  .storyhome>.storyentry{width:calc(100% - 12px)!important;padding:0 10px 10px!important}
 }
+
+/* Landing viewport reset */
+html,body{min-height:100%}
+body:has(.storyhome){background:#08182d!important;background-image:none!important}
+main.storyhome{position:relative!important;z-index:0!important;width:100vw!important;max-width:none!important;min-height:100vh!important;margin:0!important;padding:42px 18px 64px!important;overflow:hidden!important;background:transparent!important}
+main.storyhome>.landingart{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:100vh!important;object-fit:cover!important;object-position:center!important;z-index:-1!important;display:block!important}
+main.storyhome>.storywelcome,main.storyhome>.storyentry{position:relative!important;z-index:1!important}
