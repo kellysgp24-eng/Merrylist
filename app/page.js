@@ -35,7 +35,7 @@ async function removeGift(g){if(!window.confirm('Remove this secret gift plan?')
 async function give(title,type){if(!recipient&&!otherName.trim())return;try{const body=recipient?{action:'add_giving',recipient_person_id:recipient.id,gift_type:type,title,details:'Inspired by their interests',approximate_cost:null,needs_parent_help:false}:{action:'add_giving',recipient_name:otherName.trim(),recipient_relation:'extended family or friend',gift_type:type,title,details:'',approximate_cost:null,needs_parent_help:false};const x=await api(body,token);if(x.gift)setGiving([x.gift,...giving]);setMsg('Secret gift plan saved 🤫')}catch(e){setMsg(e.message)}}
 if(screen==='home'&&typeof window!=='undefined'&&new URLSearchParams(window.location.search).get('invite'))return <main><header><h1>MerryList 🎄</h1><p>Opening your private family invitation…</p></header>{msg&&<aside>{msg}</aside>}</main>;
 if(screen==='home')return <main className="mlLanding">
-  <img className="mlLandingBg" src="/merrylist-landing-bg.webp" alt="" aria-hidden="true"/>
+  <img className="mlLandingBg" src="/merrylist-landing-bg.jpg" alt="" aria-hidden="true"/>
   <div className="mlLandingShade" aria-hidden="true"></div>
   <section className="mlLandingPanel">
     <div className="mlWoodSign">MerryList</div>
