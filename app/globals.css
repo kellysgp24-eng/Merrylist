@@ -156,3 +156,8 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .landingart{position:fixed;inset:0;width:100vw;height:100vh;object-fit:cover;object-position:center;z-index:-1;display:block}
 .storyhome{background:#08182d!important}
 @media(max-width:720px){.landingart{object-position:center}}
+
+/* Landing artwork stacking fix: image was behind the main blue background */
+.storyhome{position:relative!important;isolation:isolate!important;background:transparent!important}
+.storyhome .landingart{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;object-fit:cover!important;object-position:center!important;z-index:0!important;display:block!important;pointer-events:none!important}
+.storyhome>.storywelcome,.storyhome>.storyentry{position:relative!important;z-index:1!important}
