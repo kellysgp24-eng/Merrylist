@@ -259,3 +259,30 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .mlNewFamily{border-top:1px solid #d9b873!important}
 @media(max-width:1100px){.mlLandingPanel{width:min(900px,84vw)!important}}
 @media(max-width:900px){.mlLandingPanel{width:min(94vw,760px)!important;margin-top:72px!important}.mlLandingBg{object-position:center!important}}
+
+/* Kids storybook experience for today's family test */
+.kidworld{position:relative!important;isolation:isolate!important;max-width:none!important;width:100%!important;min-height:100vh!important;margin:0!important;padding:32px clamp(16px,3vw,48px) 70px!important;background:#07182c!important;overflow:hidden!important;box-sizing:border-box!important}
+.kidworld>.kidscene{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;max-width:none!important;object-fit:cover!important;display:block!important;z-index:0!important;pointer-events:none!important}
+.kidworld.winterworld>.kidscene{object-position:25% center!important}.kidworld.summerworld>.kidscene{object-position:75% center!important}
+.kidworld>.snow,.kidworld>.summermagic{position:fixed!important;inset:0!important;z-index:1!important;pointer-events:none!important}
+.kidworld>.childnav,.kidworld>.kidmast,.kidworld>.tabs,.kidworld>section,.kidworld>aside{position:relative!important;z-index:2!important}
+.kidworld>.childnav{width:min(1080px,92vw)!important;margin:0 auto 16px!important;display:flex!important;justify-content:flex-end!important}
+.kidworld .childnav .back{border:1px solid rgba(248,216,120,.65)!important;border-radius:999px!important;padding:9px 16px!important;background:rgba(65,25,10,.88)!important;color:#f9dc89!important;font-weight:800!important;box-shadow:0 4px 12px rgba(0,0,0,.25)!important}
+.kidmast{width:min(760px,82vw)!important;margin:34px auto 18px!important;padding:58px 28px 22px!important;text-align:center!important;border:2px solid #bd8b3d!important;border-radius:14px!important;background:rgba(255,244,215,.94)!important;box-shadow:0 16px 38px rgba(0,0,0,.35)!important}
+.kidmast .kidbrand{position:absolute!important;left:50%!important;top:-48px!important;transform:translateX(-50%)!important;margin:0!important;min-width:260px!important;padding:12px 28px!important;border:4px solid #351308!important;border-radius:9px!important;background:linear-gradient(#7b3517,#511c0a)!important;box-shadow:0 7px 0 #2c1007!important;color:#f8d878!important;font:700 34px Georgia,serif!important;text-shadow:0 2px #4b1b0b!important}
+.kidmast h1{margin:0!important;color:#a91f24!important;font:700 clamp(30px,4vw,48px) Georgia,serif!important}
+.kidwelcome{display:inline-block!important;margin-top:8px!important;color:#466050!important;font-weight:800!important;letter-spacing:1px!important}
+.kidworld>.tabs{width:min(220px,20vw)!important;position:fixed!important;left:max(18px,calc((100vw - 1120px)/2))!important;top:250px!important;display:grid!important;gap:10px!important;padding:14px!important;border:2px solid #3b1609!important;border-radius:10px!important;background:linear-gradient(#673017,#421707)!important;box-shadow:0 9px 24px rgba(0,0,0,.35)!important}
+.kidworld>.tabs button{width:100%!important;padding:13px 12px!important;border:1px solid #a66b32!important;border-radius:7px!important;background:#743517!important;color:#f8dda0!important;text-align:left!important;font:700 14px Georgia,serif!important;box-shadow:inset 0 1px rgba(255,225,160,.16)!important}
+.kidworld>.tabs button.on{background:#a9282c!important;color:#fff8df!important;border-color:#e0b761!important}
+.kidworld>section,.kidworld>aside{width:min(760px,68vw)!important;margin:14px auto!important;border:2px solid #c09247!important;border-radius:13px!important;background:linear-gradient(145deg,rgba(255,251,236,.97),rgba(248,236,207,.96))!important;box-shadow:0 14px 32px rgba(0,0,0,.30),inset 0 0 28px rgba(166,112,35,.06)!important;color:#402719!important}
+.kidworld>section{padding:26px!important}
+.kidworld section h2{color:#a91f24!important;font-family:Georgia,serif!important}
+.kidworld .go{background:linear-gradient(#c63337,#a92327)!important;border:1px solid #84191c!important;border-radius:999px!important;box-shadow:0 4px 0 #741719!important;color:#fff!important;font-family:Georgia,serif!important;font-weight:700!important}
+.kidworld input,.kidworld textarea,.kidworld select{background:#fffdf6!important;border-color:#cdb47f!important}
+.kidworld .wishkind button,.kidworld .ideas button,.kidworld .chips button{border-color:#c99b50!important;background:#fff9e9!important}
+.kidworld .wishkind button.on,.kidworld .chips button.on{background:#315b45!important;color:#fff!important}
+.kidworld .wishprompt{border:1px dashed #b98836!important;border-radius:10px!important;background:rgba(244,221,166,.45)!important}
+.kidworld .wishcard,.kidworld .giftcard{border:1px solid #d1aa64!important;background:#fffaf0!important;box-shadow:0 5px 12px rgba(86,48,13,.08)!important}
+@media(max-width:1050px){.kidworld>.tabs{position:relative!important;left:auto!important;top:auto!important;width:min(760px,92vw)!important;margin:0 auto 12px!important;grid-template-columns:repeat(3,1fr)!important}.kidworld>.tabs button{text-align:center!important}.kidworld>section,.kidworld>aside{width:min(760px,92vw)!important}}
+@media(max-width:680px){.kidworld{padding:18px 8px 50px!important}.kidmast{width:94vw!important;margin-top:48px!important;padding:48px 14px 18px!important}.kidmast .kidbrand{min-width:210px!important;font-size:28px!important;top:-42px!important}.kidworld>.tabs{width:94vw!important;grid-template-columns:1fr!important}.kidworld>section,.kidworld>aside{width:94vw!important;padding:18px!important}.kidworld.winterworld>.kidscene{object-position:28% center!important}.kidworld.summerworld>.kidscene{object-position:72% center!important}}
