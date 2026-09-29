@@ -338,3 +338,9 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .mlLoginLoading b{font:700 18px Georgia,serif;color:#a91f24}.mlLoginLoading small{color:#5c6457}
 .mlGate form .go:disabled{opacity:.75;cursor:wait}
 @keyframes merryspin{to{transform:rotate(360deg)}}
+
+/* Kids header alignment from 11:52 screenshot */
+.kidmast .kidbrand{left:50%!important;right:auto!important;transform:translateX(-50%)!important;margin-left:0!important;top:-54px!important}
+.kidmast h1{position:relative!important;left:-58px!important}
+.kidmast .kidwelcome{position:relative!important;left:-58px!important}
+@media(max-width:1050px){.kidmast h1,.kidmast .kidwelcome{left:0!important}}
