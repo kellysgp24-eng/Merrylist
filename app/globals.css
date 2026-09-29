@@ -149,3 +149,6 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .storyhome:before,.storyhome:after{display:none!important}
 .storyhome .storywelcome,.storyhome .storyentry{background:rgba(255,242,213,.96)!important;backdrop-filter:blur(1.5px)}
 @media(max-width:720px){.storyhome{background-position:center center!important;background-attachment:scroll!important}}
+
+.storyhome{background-image:url('/merrylist-landing-bg.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+@media(max-width:720px){.storyhome{background-attachment:scroll!important}}
