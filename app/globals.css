@@ -190,3 +190,8 @@ main.storyhome{position:relative!important;isolation:isolate!important;backgroun
 main.storyhome::before{content:""!important;display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:100vh!important;background-image:url('/merrylist-landing-bg.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;z-index:0!important;pointer-events:none!important}
 main.storyhome>.landingart{display:none!important}
 main.storyhome>.storywelcome,main.storyhome>.storyentry{position:relative!important;z-index:2!important}
+
+/* Landing image final layer fix */
+body:has(main.storyhome){background-image:url('/merrylist-landing-bg.webp')!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+main.storyhome::before{display:none!important;content:none!important}
+main.storyhome{background:transparent!important}
