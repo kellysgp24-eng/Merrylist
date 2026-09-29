@@ -344,3 +344,21 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidmast h1{position:relative!important;left:-58px!important}
 .kidmast .kidwelcome{position:relative!important;left:-58px!important}
 @media(max-width:1050px){.kidmast h1,.kidmast .kidwelcome{left:0!important}}
+
+/* Kids desktop rail: keep navigation fully outside parchment content */
+@media(min-width:1051px){
+  .kidworld>.tabs{
+    left:24px!important;
+    width:220px!important;
+    top:310px!important;
+  }
+  .kidmast,
+  .kidworld>section,
+  .kidworld>aside{
+    width:min(760px,calc(100vw - 620px))!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    transform:translateX(90px)!important;
+  }
+  .kidmast h1,.kidmast .kidwelcome{left:0!important}
+}
