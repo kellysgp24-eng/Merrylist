@@ -161,3 +161,18 @@ section h2{color:var(--pine)}section h2:after{content:" ✦";color:var(--gold);f
 .storyhome{position:relative!important;isolation:isolate!important;background:transparent!important}
 .storyhome .landingart{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;object-fit:cover!important;object-position:center!important;z-index:0!important;display:block!important;pointer-events:none!important}
 .storyhome>.storywelcome,.storyhome>.storyentry{position:relative!important;z-index:1!important}
+
+/* Landing composition: reveal approved artwork around real UI */
+.storyhome{padding:42px 18px 64px!important;align-content:start!important}
+.storyhome>.storywelcome{width:min(820px,calc(100% - 28px))!important;margin:82px auto 0!important;padding:46px 28px 24px!important;border:2px solid #c79548!important;border-radius:16px 16px 0 0!important;background:rgba(255,244,214,.91)!important;box-shadow:0 12px 34px rgba(30,12,4,.28)!important}
+.storyhome>.storyentry{width:min(820px,calc(100% - 28px))!important;margin:0 auto!important;padding:0 18px 18px!important;border:2px solid #c79548!important;border-top:0!important;border-radius:0 0 16px 16px!important;background:rgba(255,244,214,.91)!important;box-shadow:0 18px 34px rgba(30,12,4,.28)!important}
+.storyhome .storylogo{top:-70px!important;z-index:3!important}
+.storyhome .entrycard{background:rgba(255,250,237,.94)!important}
+@media(min-width:1000px){
+ .storyhome>.storywelcome,.storyhome>.storyentry{width:min(900px,68vw)!important}
+}
+@media(max-width:720px){
+ .storyhome{padding:26px 8px 42px!important}
+ .storyhome>.storywelcome{width:calc(100% - 12px)!important;margin-top:72px!important;padding:42px 16px 18px!important}
+ .storyhome>.storyentry{width:calc(100% - 12px)!important;padding:0 10px 10px!important}
+}
