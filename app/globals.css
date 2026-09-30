@@ -441,3 +441,7 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 /* Ensure per-idea image element controls artwork */
 .kidworld .giftinspo .giftidea>.giftart{background-image:none!important;background:#f7ecd4!important}
 .kidworld .giftinspo .giftidea>.giftart>img{object-fit:contain!important;object-position:50% 50%!important;max-width:100%!important;max-height:100%!important}
+
+/* Gift suggestion photo framing: deliberately zoomed out */
+.kidworld .giftinspo .giftidea>.giftart{height:128px!important;background:#f5e8cf!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.kidworld .giftinspo .giftidea>.giftart>img{width:88%!important;height:88%!important;max-width:88%!important;max-height:88%!important;object-fit:contain!important;object-position:center!important;border-radius:6px!important}
