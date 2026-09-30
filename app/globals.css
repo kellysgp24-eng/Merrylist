@@ -387,3 +387,16 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
   .kidworld>.tabs{left:calc(50% - 610px)!important}
   .kidmast,.kidworld>section,.kidworld>aside{margin-left:calc(50% - 300px)!important}
 }
+
+/* Kids readability + simplified gift inspiration */
+.kidworld .wishprompt,.kidworld .wishprompt *{color:#62451e!important}
+.kidworld .wishprompt b{background:#fff8e7!important;color:#8f641f!important;border:1px solid #e2c27b!important}
+.kidworld .wishkind button.on,.kidworld .wishkind button.on *,.kidworld .chips button.on,.kidworld .chips button.on *{color:#fff!important}
+.kidworld .ideas button,.kidworld .ideas button *{color:#3f2b1e!important}
+.giftinspo{padding:24px!important}
+.giftinspo h2{margin-bottom:6px!important}.giftintronote{margin:0 0 18px!important;color:#5a4635!important}
+.giftideaGrid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:10px!important}
+.giftidea{min-height:118px!important;padding:14px!important;border:1.5px solid #c99b50!important;border-radius:11px!important;background:#fff9e9!important;color:#402719!important;text-align:left!important;display:grid!important;grid-template-columns:auto 1fr!important;grid-template-rows:auto 1fr!important;column-gap:8px!important;align-items:start!important}
+.giftidea>span{font-size:20px!important}.giftidea>b{color:#8e2024!important;font-size:12px!important;letter-spacing:.7px!important}.giftidea>small{grid-column:1/-1!important;margin-top:7px!important;color:#4e493f!important;font-size:13px!important;line-height:1.25!important}
+.giftbuilder form{display:grid!important;gap:12px!important}.giftbuilder .gifttypes{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:8px!important}.giftbuilder .gifttypes button{padding:11px!important;border:1px solid #c99b50!important;border-radius:9px!important;background:#fff8e6!important;color:#5a3c20!important;font-weight:800!important}.giftbuilder .gifttypes button.on{background:#315b45!important;color:#fff!important}.giftbuilder textarea{min-height:80px!important;width:100%!important}.giftbuilder .helpcheck{display:flex!important;align-items:center!important;gap:8px!important;padding:10px 12px!important;border-radius:9px!important;background:#fff5da!important;color:#4a382b!important}.giftbuilder .helpcheck input{width:auto!important}
+@media(max-width:700px){.giftideaGrid{grid-template-columns:1fr 1fr!important}}@media(max-width:480px){.giftideaGrid{grid-template-columns:1fr!important}}
