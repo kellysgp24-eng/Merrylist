@@ -445,3 +445,14 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 /* Gift suggestion photo framing: deliberately zoomed out */
 .kidworld .giftinspo .giftidea>.giftart{height:128px!important;background:#f5e8cf!important;display:flex!important;align-items:center!important;justify-content:center!important}
 .kidworld .giftinspo .giftidea>.giftart>img{width:88%!important;height:88%!important;max-width:88%!important;max-height:88%!important;object-fit:contain!important;object-position:center!important;border-radius:6px!important}
+
+/* Correct suggestion photo framing */
+.kidworld .giftinspo .giftidea>.giftart{height:150px!important;padding:12px!important;box-sizing:border-box!important;background:#f4e6ca!important}
+.kidworld .giftinspo .giftidea>.giftart>img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center!important;border-radius:7px!important;background:transparent!important}
+.kidworld .ideas{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:12px!important}
+.kidworld .ideas .wishlistIdea{padding:0!important;overflow:hidden!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;text-align:left!important}
+.kidworld .wishlistIdeaArt{height:130px!important;padding:10px!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#f4e6ca!important}
+.kidworld .wishlistIdeaArt img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;border-radius:6px!important}
+.kidworld .wishlistIdea>b{padding:10px 12px 4px!important}
+.kidworld .wishlistIdea>small{padding:0 12px 12px!important}
+@media(max-width:700px){.kidworld .ideas{grid-template-columns:1fr 1fr!important}}
