@@ -432,3 +432,8 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidworld .giftinspo .giftidea:nth-child(4)>.giftart{background-position:0% 100%!important}
 .kidworld .giftinspo .giftidea:nth-child(5)>.giftart{background-position:50% 100%!important}
 .kidworld .giftinspo .giftidea:nth-child(6)>.giftart{background-position:100% 100%!important}
+
+/* Real per-suggestion images */
+.kidworld .giftinspo .giftidea>.giftart{overflow:hidden!important;background:#efe2c4!important;padding:0!important}
+.kidworld .giftinspo .giftidea>.giftart>img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important}
+.kidworld .giftinspo .giftidea>.giftart>span{font-size:46px!important}
