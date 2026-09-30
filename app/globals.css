@@ -424,7 +424,7 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 @media(max-width:800px){.givingPeopleGrid{grid-template-columns:repeat(3,1fr)!important}}@media(max-width:520px){.givingPeopleGrid{grid-template-columns:repeat(2,1fr)!important}}
 
 /* Real generated imagery for the six gift suggestion cards */
-.kidworld .giftinspo .giftidea>.giftart{height:128px!important;background-image:url('/gift-suggestions.webp')!important;background-size:300% 200%!important;background-repeat:no-repeat!important;font-size:0!important}
+.kidworld .giftinspo .giftidea>.giftart{height:128px!important;background-image:none!important;background-size:auto!important;background-repeat:no-repeat!important;font-size:0!important}
 .kidworld .giftinspo .giftidea>.giftart i{display:none!important}
 .kidworld .giftinspo .giftidea:nth-child(1)>.giftart{background-position:0% 0%!important}
 .kidworld .giftinspo .giftidea:nth-child(2)>.giftart{background-position:50% 0%!important}
@@ -437,3 +437,7 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidworld .giftinspo .giftidea>.giftart{overflow:hidden!important;background:#efe2c4!important;padding:0!important}
 .kidworld .giftinspo .giftidea>.giftart>img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:#f7ecd4!important}
 .kidworld .giftinspo .giftidea>.giftart>span{font-size:46px!important}
+
+/* Ensure per-idea image element controls artwork */
+.kidworld .giftinspo .giftidea>.giftart{background-image:none!important;background:#f7ecd4!important}
+.kidworld .giftinspo .giftidea>.giftart>img{object-fit:contain!important;object-position:50% 50%!important;max-width:100%!important;max-height:100%!important}
