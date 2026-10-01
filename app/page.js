@@ -6,11 +6,11 @@ const choices=['Gaming 🎮','Football ⚽','Basketball 🏀','LEGO 🧱','Music
 const fallback=['Make a personalised coupon book','Bake their favourite treat','Create a photo or memory gift','Plan a movie or games night','Plan a picnic or adventure together','Choose a book, game or puzzle','Pick a cosy Christmas gift','Choose a voucher for something fun'];
 const giftImages={
 'Make a personalised coupon book':'https://i.etsystatic.com/40541295/r/il/99ada0/6260184005/il_1588xN.6260184005_n0yy.jpg',
-'Bake their favourite treat':'https://lifemadesweeter.com/wp-content/uploads/Christmas-Cookie-Box-Recipe-Photo-Picture-16.jpg',
+'Bake their favourite treat':'https://file.hstatic.net/200000355853/file/qua-giang-sinh-cho-me-y-nghia-nhat-2.jpg',
 'Create a photo or memory gift':'https://www.giftsforyounow.com/images/products/L23362407X-5-L.jpg',
 'Plan a movie or games night':'https://cdn.sanity.io/images/jms1jm9u/production/52c5f584f8bd729ee0dc7932a0aa590e2929b1c3-1344x768.png',
 'Plan a picnic or adventure together':'https://images.squarespace-cdn.com/content/v1/686dd905bf763f0efc2a613c/1765e8c3-16ec-4510-8b16-241e45a25896/Camping%2BGift%2BBaskets%2BIdeas',
-'Choose a book, game or puzzle':'https://www.theaddisonwest.com/cdn/shop/collections/MonopolyLuxeinMaple_1408x1408_bd7b199a-7a59-435d-a64a-c22ebc2643f8.jpg?crop=center&height=1200&v=1775509890&width=1200',
+'Choose a book, game or puzzle':'https://cdn.mos.cms.futurecdn.net/4XodCBXmCGCeivQe77dLzB-1280-80.jpg',
 'LEGO set':'https://lego.bricksmegastore.com/cdn/shop/files/Front_9d43d987-c86e-4c9b-a740-fcd0e727e5cf_600x600_crop_center.png?v=1773704837',
 'Headphones or speaker':'https://www.emarketkw.com/web/image/product.template/17494/image_1024?unique=7f6ae15',
 'Art supplies':'https://images.heb.com/is/image/HEBGrocery/010502029-1',
