@@ -473,3 +473,14 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .questSteps .done{border-color:#487445;background:#eef5e8}.questSteps .done b{background:#487445;color:#fff}
 .questTip{text-align:center;font-weight:800;margin:16px 0 0!important;color:#8f2026}
 @media(max-width:700px){.questSteps{grid-template-columns:1fr}.kidQuestTop>strong{min-width:60px;height:60px}}
+
+/* Secret gift plans: compact card layout */
+.kidworld .giftplans{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important;margin-top:18px!important}
+.kidworld .giftplan{position:relative!important;padding:18px 18px 16px!important;border:1px solid #d8c59e!important;border-radius:16px!important;background:#fffaf0!important;box-shadow:0 4px 12px rgba(64,39,18,.08)!important;min-width:0!important}
+.kidworld .giftplan .giftpill{display:inline-flex!important;width:auto!important;align-items:center!important;padding:6px 10px!important;border-radius:999px!important;background:#efe2c4!important;color:#6e3d20!important;font:800 12px Arial,sans-serif!important;letter-spacing:.04em!important}
+.kidworld .giftplan h3{margin:13px 0 5px!important;font-size:21px!important;line-height:1.2!important;color:#3f2c20!important}
+.kidworld .giftplan> b{display:block!important;color:#8f2424!important;font-size:14px!important;margin:0 0 8px!important}
+.kidworld .giftplan>p{margin:7px 0 10px!important;color:#675344!important;font-size:14px!important}
+.kidworld .giftplan .wishmeta{margin-top:8px!important;padding-top:9px!important;border-top:1px dashed #d9c9aa!important;color:#725638!important}
+.kidworld .giftplan .editwish{display:inline-flex!important;margin-top:12px!important;padding:7px 11px!important;border:1px solid #cdb98e!important;border-radius:9px!important;background:#fffdf8!important;text-decoration:none!important;font-weight:700!important;color:#674927!important}
+@media(max-width:700px){.kidworld .giftplans{grid-template-columns:1fr!important}.kidworld .giftplan{padding:16px!important}}
