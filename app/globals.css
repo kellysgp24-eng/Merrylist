@@ -456,3 +456,20 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidworld .wishlistIdea>b{padding:10px 12px 4px!important}
 .kidworld .wishlistIdea>small{padding:0 12px 12px!important}
 @media(max-width:700px){.kidworld .ideas{grid-template-columns:1fr 1fr!important}}
+
+/* Kid first-time MerryList quest */
+.kidQuest{border:2px solid #d8a33a!important;background:rgba(255,248,224,.96)!important;box-shadow:0 8px 24px rgba(68,37,14,.16)!important}
+.kidQuestTop{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.kidQuestTop h2{margin:.1rem 0!important}
+.kidQuestTop>strong{display:grid;place-items:center;min-width:72px;height:72px;border-radius:50%;background:#a72429;color:#fff;font-size:1.35rem;border:5px solid #f0cf76}
+.questTrack{height:13px;background:#e7dcc3;border-radius:999px;overflow:hidden;margin:14px 0 18px}
+.questTrack span{display:block;height:100%;background:#a72429;border-radius:999px;transition:width .35s ease}
+.questSteps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.questSteps>div{background:#fffaf0;border:1px solid #dccba8;border-radius:12px;padding:12px;display:grid;grid-template-columns:34px 1fr;column-gap:8px;align-items:center}
+.questSteps b{grid-row:1/3;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#ded5c1;color:#5b4b38}
+.questSteps span{font-weight:800;color:#493526}
+.questSteps small{color:#75614d}
+.questSteps .active{border-color:#c68c22;background:#fff4d6}.questSteps .active b{background:#c68c22;color:#fff}
+.questSteps .done{border-color:#487445;background:#eef5e8}.questSteps .done b{background:#487445;color:#fff}
+.questTip{text-align:center;font-weight:800;margin:16px 0 0!important;color:#8f2026}
+@media(max-width:700px){.questSteps{grid-template-columns:1fr}.kidQuestTop>strong{min-width:60px;height:60px}}
