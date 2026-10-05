@@ -484,3 +484,13 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .kidworld .giftplan .wishmeta{margin-top:8px!important;padding-top:9px!important;border-top:1px dashed #d9c9aa!important;color:#725638!important}
 .kidworld .giftplan .editwish{display:inline-flex!important;margin-top:12px!important;padding:7px 11px!important;border:1px solid #cdb98e!important;border-radius:9px!important;background:#fffdf8!important;text-decoration:none!important;font-weight:700!important;color:#674927!important}
 @media(max-width:700px){.kidworld .giftplans{grid-template-columns:1fr!important}.kidworld .giftplan{padding:16px!important}}
+
+/* Recipient wishlist inside Gifts I'm Giving */
+.kidworld .theirWishlist{border-color:#c9aa63!important;background:rgba(255,250,236,.97)!important}
+.kidworld .recipientWishGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:16px}
+.kidworld .recipientWish{padding:16px;border:1px solid #ddcba8;border-radius:15px;background:#fffdf8;box-shadow:0 3px 10px rgba(65,40,20,.06)}
+.kidworld .recipientWish>div:first-child{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.kidworld .recipientWish h3{margin:12px 0 6px;color:#3f2c20}
+.kidworld .recipientWish p{font-size:14px;color:#6d5845;margin:5px 0 10px}
+.kidworld .recipientWish .go{width:100%;margin-top:13px}
+@media(max-width:700px){.kidworld .recipientWishGrid{grid-template-columns:1fr}}
