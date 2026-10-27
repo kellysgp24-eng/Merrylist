@@ -513,3 +513,8 @@ radial-gradient(circle at 15% 20%,rgba(184,137,54,.10),transparent 25%)!importan
 .guestpage .guestwish .reservebtn{display:block;width:100%;margin-top:auto;white-space:normal;min-height:44px}
 .guestpage .guestwish .reservednote{margin-top:auto}
 @media(max-width:700px){.guestpage{width:calc(100% - 20px)}.guestpage .guestwishes{grid-template-columns:minmax(0,1fr)}.guestpage .guestintro{padding:20px}.guestpage .guestwish{padding:18px}}
+
+/* Guest gift recipient emphasis */
+.guestpage .guestpersonhead{border-bottom:2px solid #d9bc81;padding-bottom:14px;margin-bottom:18px;align-items:center}
+.guestpage .guestpersonhead .guestrecipient{font-size:clamp(28px,3vw,38px);font-weight:900;color:#17442e;line-height:1.15}
+.guestpage .guestwish .guestgiftfor{display:inline-block;align-self:flex-start;margin:0 0 3px;padding:6px 12px;border-radius:999px;background:#e6efe5;color:#19462f;font-size:14px;font-weight:800;line-height:1.3}
